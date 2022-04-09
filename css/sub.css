@@ -1,0 +1,54 @@
+body {
+	color: #333;
+	text-align: center;
+}
+
+#wrapper {
+	width: 560px;
+	height: auto;
+	margin: 40px auto;
+	letter-spacing: 0.1em;
+}
+
+#aiin #wrapper,#union #wrapper {
+	width: 800px;
+}
+
+#jiman #wrapper {
+	width: 548px;
+}
+
+a:link, a:visited {
+	color: #069;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fff;
+}
+
+h1{
+	margin: 0 0 40px;
+	font: bold 2em/1.5em sans-serif;
+	letter-spacing:-0.1em;
+}
+
+h2{
+	margin: 60px 0 10px;
+	font: bold 1em/1.5em sans-serif;
+}
+
+p{
+	margin-top: 50px;
+}
+
+img{
+	margin: 20px 0;
+}
+
+address{
+	margin: 20px 0 0;
+	font: 0.8em/1em sans-serif;
+	letter-spacing: 0em;
+}
