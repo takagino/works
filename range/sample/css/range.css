@@ -1,0 +1,38 @@
+/*demos
+--------------------------------------------------*/
+#priceBar,#meterBar,#yearBar{
+	position : absolute; 
+	margin : 0;
+	padding : 0;
+	background-color : #ccc;
+	}
+
+#colorBar{
+	position : absolute; 
+	margin : 0;
+	padding : 0;
+	background: url(../site-image/color.gif) no-repeat;	
+	}
+	
+#priceRange,#meterRange,#yearRange{
+ 	position : absolute; 
+	margin : 0;
+	padding : 0;
+	background-color : #333;
+	}
+
+#priceMin,#meterMin,#yearMin,#priceMax,#meterMax,#yearMax{
+	position : absolute; 
+	margin : 0;
+	padding : 0;
+	background: url(../site-image/jog.gif) no-repeat;	
+	cursor: move;
+	}
+
+#colorMin,#yearIn{
+	position : absolute; 
+	margin : 0;
+	padding : 0;
+	background: url(../site-image/in.gif) no-repeat;	
+	cursor: move;
+	}

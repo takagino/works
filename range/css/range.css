@@ -1,0 +1,31 @@
+/*demos
+--------------------------------------------------*/
+#hBar,#vBar,#iBar{
+	position : absolute; 
+	margin : 0;
+	padding : 0;
+	background-color : #ccc;
+	}
+
+#hRange,#vRange,#iRange{
+ 	position : absolute; 
+	margin : 0;
+	padding : 0;
+	background-color : #333;
+	}
+
+#hMin,#vMin,#iMin,#hMax,#vMax,#iMax{
+	position : absolute; 
+	margin : 0;
+	padding : 0;
+	background: url(../site-image/jog.gif) no-repeat;	
+	cursor: move;
+	}
+
+#iIn{
+	position : absolute; 
+	margin : 0;
+	padding : 0;
+	background: url(../site-image/in.gif) no-repeat;	
+	cursor: move;
+	}

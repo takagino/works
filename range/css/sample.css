@@ -1,0 +1,135 @@
+/*samples
+--------------------------------------------------*/
+p#hVal,p#vVal,p#iVal{
+	position : absolute; 
+	margin : 0;
+	padding : 0; 
+	font-weight: bold;
+	}
+	
+span#hDat,span#vDat,span#iDat{
+    	margin : 0;
+	padding : 0 0 0 10px;
+	color : #333;
+	font-weight: normal;
+	}
+
+p#sample01{
+	position : absolute;
+	left: 1000px;
+	top: 170px;
+	color:#333;
+	font-size: 13px;
+	}
+	
+#n00,#n01,#n02,#n03,#n04,#n05,#n06,#n07,#n08,#n09,#n10{
+	position : absolute;
+	left: 1000px;
+	top: 190px;
+	margin : 0;
+	padding : 0; 
+	}
+
+#n00{
+	background: url(../site-image/n00.gif) no-repeat;
+	}
+	
+#n01{
+	background: url(../site-image/n01.gif) no-repeat;
+	}
+
+#n02{
+	background: url(../site-image/n02.gif) no-repeat;
+	}
+
+#n03{
+	background: url(../site-image/n03.gif) no-repeat;
+	}
+
+#n04{
+	background: url(../site-image/n04.gif) no-repeat;
+	}
+
+#n05{
+	background: url(../site-image/n05.gif) no-repeat;
+	}
+
+#n06{
+	background: url(../site-image/n06.gif) no-repeat;
+	}
+
+#n07{
+	background: url(../site-image/n07.gif) no-repeat;
+	}
+
+#n08{
+	background: url(../site-image/n08.gif) no-repeat;
+	}
+
+#n09{
+	background: url(../site-image/n09.gif) no-repeat;
+	}
+
+#n10{
+	background: url(../site-image/n10.gif) no-repeat;
+	}
+	
+p#sample02{
+	position : absolute;
+	left: 1000px;
+	top: 320px;
+	color:#333;
+	font-size: 13px;
+	}
+	
+#c00,#c01,#c02,#c03,#c04,#c05,#c06,#c07,#c08,#c09,#c10{
+	position : absolute;
+	left: 1000px;
+	top: 350px;
+	margin : 0;
+	padding : 0; 
+	}
+
+#c00{
+	background: url(../site-image/c00.gif) no-repeat;
+	}
+	
+#c01{
+	background: url(../site-image/c01.gif) no-repeat;
+	}
+
+#c02{
+	background: url(../site-image/c02.gif) no-repeat;
+	}
+
+#c03{
+	background: url(../site-image/c03.gif) no-repeat;
+	}
+
+#c04{
+	background: url(../site-image/c04.gif) no-repeat;
+	}
+
+#c05{
+	background: url(../site-image/c05.gif) no-repeat;
+	}
+
+#c06{
+	background: url(../site-image/c06.gif) no-repeat;
+	}
+
+#c07{
+	background: url(../site-image/c07.gif) no-repeat;
+	}
+
+#c08{
+	background: url(../site-image/c08.gif) no-repeat;
+	}
+
+#c09{
+	background: url(../site-image/c09.gif) no-repeat;
+	}
+
+#c10{
+	background: url(../site-image/c10.gif) no-repeat;
+	}

@@ -1,0 +1,16 @@
+/*samples
+--------------------------------------------------*/
+p#colorVal,p#priceVal,p#meterVal,p#yearVal{
+	position : absolute; 
+	margin : 0;
+	padding : 0;
+	font-size: 13px;
+	font-weight: bold;
+	}
+	
+span#colorDat,span#priceDat,span#meterDat,span#yearDat{
+    margin : 0;
+	padding : 0 0 0 10px;
+	color : #333;
+	font-weight: normal;
+	}

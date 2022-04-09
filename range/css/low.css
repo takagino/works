@@ -1,0 +1,27 @@
+@charset 'Shift_JIS';
+
+/*--style resset */
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: transparent;
+	font-size: 100%;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	}
+
+body{
+	color: #000;
+	background-color: #fff;
+	text-align: center;
+	font-family: "ヒラギノ角ゴ Pro W3", "ＭＳ Pゴシック " , sans-serif;
+	}
+
+a img {
+	color:#fff;
+	border-width:0;
+	}
+	

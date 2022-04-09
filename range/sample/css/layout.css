@@ -1,0 +1,153 @@
+body{
+	text-align:left;
+	background: url(../site-image/background_logo.jpg) repeat-x;
+	}
+
+#container{
+	margin: 45px 50px 0 50px;
+	width: 1150px;
+	height: auto;
+	}
+
+#contents{
+	margin: 0 0 0 370px;
+	width: 680px;
+	height: auto;
+	}
+
+#indicate{
+	margin: 0;
+	width: 680px;
+	height: auto;
+	text-align:left;
+	}
+
+.block{
+	clear: both;
+	margin: 0 0 20px 0;
+	width: 680px;
+	height: 91px;
+	border: solid 0.5px #333;
+	}
+
+.info{
+	float: left;
+	margin: 0;
+	width: 600px;
+	height: 60px;
+	}
+	
+.carName{
+	margin: 0;
+	width: 680px;
+	height: 30px;
+	background-color: #cff;
+	border-top: solid 0.5px #333;
+	border-bottom: solid 0.5px #333;
+	}
+
+.cap{
+	clear: both;
+	margin: 0;
+	width: 600px;
+	height: 35px;
+	border-top: solid 0.5px #333;
+	border-left: solid 0.5px #333;
+	}
+
+.terms{
+	float: left;
+	margin: 0;
+	width: 149px;
+	height: 25px;
+	border-left: solid 0.5px #333;
+	}
+
+#contents img{
+	float: left;
+	width: 80px;
+	height: 59px;
+	border-top: solid 0.5px #333;
+	border-bottom: solid 0.5px #333;
+	}
+
+#sample{
+	clear: both;
+	margin: 0 0 30px 0px;
+	width: 680px;
+	height: 61px;
+	border: solid 0.5px #333;
+	}
+
+#sample .info{
+	float: left;
+	margin: 0;
+	width: 600px;
+	height: 40px;
+	}
+	
+#sample .carName{
+	margin: 0;
+	width: 680px;
+	height: 20px;
+	background-color: #cff;
+	border-bottom: solid 0.5px #333;
+	}
+
+#sample .cap{
+	clear: both;
+	margin: 0;
+	width: 600px;
+	height: 20px;
+	border-top: solid 0.5px #333;
+	border-left: solid 0.5px #333;
+	}
+
+#sample .terms{
+	float: left;
+	margin: 0;
+	width: 149px;
+	height: 20px;
+	border-left: solid 0.5px #333;
+	}
+
+#imgblock{
+	float: left;
+	width: 80px;
+	height: 40px;
+	}
+
+#data{
+	margin: 0 0 20px 0;
+	padding: 5px 0 12px 0;
+	width: 680px;
+	height: 12px;
+	border-top: dashed 1px #ccc;
+	border-bottom: dashed 1px #ccc;
+	}
+
+#next{
+	float: left;
+	margin : 0;
+	padding : 0;
+	}
+
+#back{
+	float: left;
+	margin : 0 20px 0 0;
+	padding : 0;
+	}
+
+#number{
+	float: right;
+	margin : 0;
+	padding : 0;
+	}
+
+#loading{
+	position : absolute; 
+	margin : 0;
+	padding : 0 0 10px 0;
+	width: 200px;
+	border-bottom: dashed 1px #ccc;
+	}

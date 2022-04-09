@@ -1,0 +1,77 @@
+/* font (keycolor :#39c, #6cf)
+--------------------------------------------------*/
+h1{
+	margin: 20px 0;
+	padding: 0;
+	color:#39c;
+	font-size: 16px;
+	font-weight: bold;
+	}
+
+
+h2{
+	margin: 0 0 10px 0;
+	color:#333;
+	font-size: 14px;
+	font-weight: bold;
+	}
+	
+p{
+	margin: 0;
+	padding: 0;
+	color:#333;
+	font-size: 11px;
+	line-height: 150%;
+	text-align: left;
+	}
+
+.carName p{
+	padding: 9px 0 0 10px;
+	font-size: 12px;
+	line-height: 100%;
+	}
+
+.cap p{
+	padding: 6px 0 0 10px;
+	font-size: 11px;
+	line-height: 100%;
+	}
+
+.terms p{
+	padding: 6px 0 0 0;
+	line-height: 100%;
+	font-size: 12px;
+	text-align: center;
+	}
+
+#sample .carName p{
+	padding: 3px 0 0 10px;
+	font-size: 12px;
+	line-height: 100%;
+	}
+
+#sample .cap p{
+	padding: 4px 0 0 10px;
+	font-size: 11px;
+	line-height: 100%;
+	}
+
+#sample .terms p{
+	padding: 3px 0 0 0;
+	line-height: 100%;
+	font-size: 12px;
+	text-align: center;
+	}
+
+#imgblock p{
+	padding: 14px 0 0 0;
+	line-height: 100%;
+	font-size: 11px;
+	text-align: center;
+	}
+
+p a{
+	color:#f66;
+	font-weight: bold;
+	border-bottom: solid 1px #f66;
+	}

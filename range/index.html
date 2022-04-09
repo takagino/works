@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www/w3/org/TR/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=Shift_JIS" />
+	<title>[range.js]</title>
+	<link rel="stylesheet" type="text/css" media="print" href="css/print.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="css/screen.css" />
+	<script type="text/javascript" src="js/prototype.js" charset="utf-8"></script>
+	<script type="text/javascript" src="js/range.js" charset="utf-8"></script>
+	<script type="text/javascript" src="js/control.js" charset="utf-8"></script>
+</head>
+<body>
+	<div id="container">
+		<img src="site-image/logo.gif" alt="range.js" width="900" height="100" />
+		<div id="contents">
+			<div id="info">
+				<h1>range.js</h1>
+				<div class="section">
+					<p>[range.js]は、範囲指定のできるスライダーを設置するためのjavascriptライブラリです。</p>
+				</div>
+				<div class="section">
+					<p>ライブラリで設置したスライダーを操作することで、最小値と最大値の２種類の値を取得できます。この値を使えば、右側にあるデモのように、画像やテキストを操作することができる他、ショッピングサイトの値段や、中古車情報サイトの値段や走行距離など、上限と下限を指定して検索するようなサイトに用いることにより、柔軟で快適な検索が実現できます。</p>
+				</div>
+				<h1 id="s">sample site</h1>
+				<div class="section">
+					<p>となりのPCでは、[range.js]のサンプルサイトとして、中古車検索サイトを展示しています。カーセンサーnet から提供されている「カーセンサー・ラボ API」を用いて中古車情報を取得、表示しています。</p>
+				</div>
+				<div class="section">
+					<p>自由に車の色、値段、走行距離、年式を指定して、ページ更新のない快適な検索を体感してみてください。</p>
+				</div>
+				<div class="section">
+					<p>※展示用のため、現在はありません。</p>
+				</div>
+				<img src="site-image/site.jpg" alt="" width="400" height="285" />
+			</div>
+			<div id="demos">
+				<h1>demos</h1>
+				<div id="main">
+					<div class="blockH">
+						<h2><span>●</span>standard horizontal slider</h2>
+						<p>両端の白色の四角をドラッグ : 範囲の幅を指定</p>
+						<p>バーの黒色の部分をドラッグ : 範囲の幅を固定したまま移動</p>
+						<p>バーの灰色の部分をクリック : クリックした位置に移動</p>
+						<div id="hBar"></div>
+						<div id="hRange"></div>
+						<div id="hMin"></div>
+						<div id="hMax"></div>
+						<p id="hVal">value :<span id="hDat">0―10</span></p>
+					</div>
+					<div class="blockV">
+						<h2><span>●</span>standard vertical slider</h2>
+						<div id="vBar"></div>
+						<div id="vRange"></div>
+						<div id="vMin"></div>
+						<div id="vMax"></div>
+						<p id="vVal">value :<span id="vDat">0―10</span></p>
+					</div>
+					<div class="blockHI">
+						<h2><span>●</span>slider with movement in a range</h2>
+						<p>バーの下にある三角をドラッグ : 範囲内で１つずつ値を指定</p>
+						<div id="iBar"></div>
+						<div id="iRange"></div>
+						<div id="iMin"></div>
+						<div id="iMax"></div>
+						<div id="iIn"></div>
+						<p id="iVal">value :<span id="iDat">0―10</span></p>
+					</div>
+				</div>
+				<div id="sub">
+					<p id="sample01">demo01</p>
+					<div id="n10"></div>
+					<div id="n09"></div>
+					<div id="n08"></div>
+					<div id="n07"></div>
+					<div id="n06"></div>
+					<div id="n05"></div>
+					<div id="n04"></div>
+					<div id="n03"></div>
+					<div id="n02"></div>
+					<div id="n01"></div>
+					<div id="n00"></div>
+					<p id="sample02">demo02</p>
+					<div id="c10"></div>
+					<div id="c09"></div>
+					<div id="c08"></div>
+					<div id="c07"></div>
+					<div id="c06"></div>
+					<div id="c05"></div>
+					<div id="c04"></div>
+					<div id="c03"></div>
+					<div id="c02"></div>
+					<div id="c01"></div>
+					<div id="c00"></div>
+				</div>
+				<div class="empty">
+				</div>
+			</div>
+	</div>
+</body>
+</html>
